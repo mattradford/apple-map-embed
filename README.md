@@ -16,7 +16,7 @@ The WordPress plugin includes the following files:
 
 ## Installation
 
-* Download the latest release
+* Download the [latest release](https://github.com/mattradford/apple-map-embed/releases)
 * Upload the zip file via Plugins -> Add new
 * Activate
 * Complete required settings in Tools -> Apple Map embed.
