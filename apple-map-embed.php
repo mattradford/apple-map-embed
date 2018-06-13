@@ -3,7 +3,7 @@
 * Plugin Name: Apple Map embed
 * Plugin URI: https://github.com/mattradford/apple-map-embed
 * Description: Demo plugin to embed an Apple map on your website
-* Version: 1.0.0
+* Version: 1.0.1
 * Author: Matt Radford
 * Author URI: https://mattrad.uk
 * Text Domain: mapkit_jwt
