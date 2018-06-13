@@ -21,3 +21,11 @@ The WordPress plugin includes the following files:
 * Activate
 * Complete required settings in Tools -> Apple Map embed.
 * Add the shortcode `[applemap]` to a page.
+
+## Pre-requisites
+
+* Apple Developer account
+* Maps identifier
+* Private key
+* Key ID
+* Team ID
