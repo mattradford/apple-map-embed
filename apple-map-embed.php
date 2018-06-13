@@ -28,14 +28,6 @@ function mapkit_js_enqueue() {
 add_action( 'wp_enqueue_scripts', 'mapkit_js_enqueue' );
 
 function mapkit_js_shortcode() {
-    ?>
-    <style>
-        #map {
-            width: 100%;
-            height: 600px;
-        }
-    </style>
-    <div id="map"></div>
-    <?php
+    return '<style>#map {width: 100%;height: 600px;}</style><div id="map"></div>';
 }
 add_shortcode('applemap', 'mapkit_js_shortcode');
