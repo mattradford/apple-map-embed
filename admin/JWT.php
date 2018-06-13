@@ -35,7 +35,7 @@ class JWT
             'iat' => time(),
             'exp' => time() + 315576000
         ];
-
+        
         if($origin) {
             $body['origin'] = $origin;
         }
@@ -45,7 +45,7 @@ class JWT
         if(!$key = openssl_pkey_get_private($private_key)) {
             return false;
         }
-
+        
         if(!openssl_sign($payload, $result, $key, OPENSSL_ALGO_SHA256)) {
             return false;
         }

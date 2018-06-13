@@ -12,6 +12,8 @@ function mapkitJwtToken() {
     $team_id = $options['mapkit_jwt_text_field_0'];
     $origin = $options['mapkit_jwt_text_field_3'];
 
+
+
     // Replace arguments below with private key, key ID and team identifier
     if ( isset( $origin ) ) {
         $my_token = JWT::getToken($private_key, $key_id, $team_id, $origin);
